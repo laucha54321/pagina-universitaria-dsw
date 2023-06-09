@@ -1,0 +1,50 @@
+/*Index*/
+.container {
+display: flex ;
+height: 100vh;
+}
+
+.container-left {
+width: 20%;
+background-color: aliceblue;
+padding:1rem; /*relleno*/
+}
+
+.container-right {
+    width: 100%;
+    background-color:cornflowerblue;
+    padding: 1rem; 
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 2px;
+}
+
+.menu-items{
+display: block;
+margin-bottom: 1rem;
+background-color: aquamarine ;
+border: 1px solid;
+text-align: center;
+}
+
+/*Bio*/
+.text-bio{
+text-align: justify;
+font-style: italic;
+line-height: 2;
+}
+
+/*Contacto*/
+h2{
+    margin-top:0 ;
+
+}
+
+.form-control{
+display: block;
+margin: 0.5rem 0;
+}
+
+.form-button{
+    display: block;
+}
